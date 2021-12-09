@@ -4,7 +4,7 @@ namespace App
 {
     /*
      * Manages a set of rooms, namely the creation and retrieval.
-     * It must be thread-safe.
+     * Must be thread-safe.
      */
     // FIXME
     public class RoomSet

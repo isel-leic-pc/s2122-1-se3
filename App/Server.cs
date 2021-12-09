@@ -115,6 +115,8 @@ namespace App
                     var clientName = $"client-{_nextClientId++}";
                     _logger.LogInformation("New client accepted '{}'", clientName);
                     var client = new ConnectedClient(clientName, tcpClient, _rooms, _loggerFactory);
+                    
+                    // FIXME remove clients from this collection when they exit
                     clients.Add(client);
                 }
                 catch (Exception e)

@@ -34,3 +34,5 @@ Most of the time, this thread will be blocked waiting for a new connection.
 * Most interactions with the client are done by sending messages to the client control queue.
 
 * The parsing of the remote client lines (commands or messages) is done by the `Line` class.
+
+![diagram](imgs/diagram.png)

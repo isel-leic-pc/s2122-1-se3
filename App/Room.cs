@@ -4,6 +4,7 @@ namespace App
 {
     /*
      * Manages a room, namely the set of contained clients.
+     * Must be thread-safe.
      */
     // FIXME
     public class Room
